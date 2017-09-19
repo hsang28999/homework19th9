@@ -1,0 +1,80 @@
+* {
+	font-family: tahoma, arial;
+	font-size: 15px;
+}
+
+body{
+	margin: 0 12%;
+}
+
+header{
+	height: 70px;
+	margin: 10px 100px;
+}
+
+.logo{
+	float: left;
+}
+
+.logo img{
+	width: 60px;
+	float: left;
+}
+
+.menu{
+	float: right;
+}
+
+.logo-text{
+	float: left;
+	margin: 20px 10px;
+}
+
+ul li{
+	display: inline;
+	padding: 0 10px;
+}
+
+.bai-viet{
+	text-align: justify;
+	width:  30%;
+	height: 30%;
+	float: left;
+	margin: 5px;
+}
+
+.clear-both{
+	clear: both;
+}
+.slogan{
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	text-align: center;
+	background-color: DeepSkyBlue;
+	border: 3%; 
+	border-left: 0;
+	border-right: 0;
+	border-style: solid;
+	border-color: black;
+	color: white;
+	padding: 2% ;
+
+}
+
+.gach{
+	border-right: 2px solid black;
+}
+.clear-both{
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	text-align: center;
+	background-color: DeepSkyBlue;
+	border: 3%; 
+	border-left: 0;
+	border-right: 0;
+	border-style: solid;
+	border-color: black;
+	color: white;
+	padding: 2% ;
+}
+a{
+	text-decoration: none;
+}
