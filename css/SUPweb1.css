@@ -1,0 +1,113 @@
+*{
+	font-family: tahoma, arial;
+	font-size: 15px;
+	
+}
+
+header{
+	position: sticky;
+ 	top: 1%;
+	background-color: #e5e5e5;
+	padding: 0.2% 9%;
+
+}
+
+
+.first{
+	height: 70px;
+	margin: 2% 10%;
+}
+
+.logo{
+
+	width: 40%;
+	float: left;
+	
+}
+
+.logo img{
+	width: 23%;
+	float: left;
+}
+
+.logo-text{
+	float: left;
+	margin-top: 12%;
+}
+
+.noi-dung{
+	margin: 0 12%;
+}
+.menu{
+	padding-top: 2%;
+	float: right;
+}
+ul li{
+	display: inline;
+	padding: 0 10px;
+}
+.slogan {
+	font-style: italic;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	text-align: center;
+	background-color: DeepSkyBlue; 
+	border-left: 0;
+	border-right: 0;
+	border-style: solid;
+	border-color: black;
+	color: white;
+	padding: 2% ;
+}
+.bai-viet{
+	border: 2px solid black;
+	border-radius: 6%;
+	width:  28%;
+	height: auto;
+	float: left;
+	padding: 0 1%;
+	margin: 1%;
+	text-align: justify;
+}
+
+a{
+	text-decoration: none;
+	border: 1px soli;
+}
+
+footer{
+	clear: both;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	text-align: center;
+	background-color: DeepSkyBlue; 
+	border-left: 0;
+	border-right: 0;
+	border-style: solid;
+	border-color: black;
+	color: white;
+	padding: 2% ;
+}
+.author{
+	padding: 3px 30%;
+	text-align: right;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: white;
+
+}
+section img{
+	width: 30%;
+	position: fixed;
+	-webkit-animation-name: myKeyFrame;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-iteration-count: infinite;
+	z-index: -5;
+}
+@-webkit-keyframes myKeyFrame{
+		from{
+			left:-30%;
+			right:50%;
+		}
+		to{
+			left:100%;
+			right:50%;
+		}
+}
